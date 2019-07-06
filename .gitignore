@@ -1,0 +1,14 @@
+.vscode
+ms/src/*.o
+ms/*.a
+ms/*.h
+ms/.vscode
+test/src/*.o
+test/test
+test/.vscode
+ms-gtk/res_out
+ms-gtk/src/*.o
+ms-gtk/ms-gtk
+ms-gtk/.vscode
+misc/.vscode
+

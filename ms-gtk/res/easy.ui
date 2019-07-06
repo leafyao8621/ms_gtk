@@ -1,0 +1,733 @@
+<interface>
+    <object id="window" class="GtkWindow">
+        <property name="visible">True</property>
+        <property name="title">ms</property>
+        <child>
+            <object class="GtkGrid">
+                <property name="visible">True</property>
+                <child>
+                    <object class="GtkGrid">
+                        <property name="visible">True</property>
+                        <child>
+                            <object id="grid0-0" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">0</property>
+                                <property name="top-attach">0</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid0-1" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">1</property>
+                                <property name="top-attach">0</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid0-2" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">2</property>
+                                <property name="top-attach">0</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid0-3" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">3</property>
+                                <property name="top-attach">0</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid0-4" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">4</property>
+                                <property name="top-attach">0</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid0-5" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">5</property>
+                                <property name="top-attach">0</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid0-6" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">6</property>
+                                <property name="top-attach">0</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid0-7" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">7</property>
+                                <property name="top-attach">0</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid1-0" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">0</property>
+                                <property name="top-attach">1</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid1-1" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">1</property>
+                                <property name="top-attach">1</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid1-2" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">2</property>
+                                <property name="top-attach">1</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid1-3" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">3</property>
+                                <property name="top-attach">1</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid1-4" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">4</property>
+                                <property name="top-attach">1</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid1-5" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">5</property>
+                                <property name="top-attach">1</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid1-6" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">6</property>
+                                <property name="top-attach">1</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid1-7" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">7</property>
+                                <property name="top-attach">1</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid2-0" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">0</property>
+                                <property name="top-attach">2</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid2-1" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">1</property>
+                                <property name="top-attach">2</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid2-2" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">2</property>
+                                <property name="top-attach">2</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid2-3" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">3</property>
+                                <property name="top-attach">2</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid2-4" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">4</property>
+                                <property name="top-attach">2</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid2-5" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">5</property>
+                                <property name="top-attach">2</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid2-6" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">6</property>
+                                <property name="top-attach">2</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid2-7" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">7</property>
+                                <property name="top-attach">2</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid3-0" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">0</property>
+                                <property name="top-attach">3</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid3-1" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">1</property>
+                                <property name="top-attach">3</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid3-2" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">2</property>
+                                <property name="top-attach">3</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid3-3" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">3</property>
+                                <property name="top-attach">3</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid3-4" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">4</property>
+                                <property name="top-attach">3</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid3-5" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">5</property>
+                                <property name="top-attach">3</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid3-6" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">6</property>
+                                <property name="top-attach">3</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid3-7" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">7</property>
+                                <property name="top-attach">3</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid4-0" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">0</property>
+                                <property name="top-attach">4</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid4-1" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">1</property>
+                                <property name="top-attach">4</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid4-2" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">2</property>
+                                <property name="top-attach">4</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid4-3" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">3</property>
+                                <property name="top-attach">4</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid4-4" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">4</property>
+                                <property name="top-attach">4</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid4-5" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">5</property>
+                                <property name="top-attach">4</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid4-6" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">6</property>
+                                <property name="top-attach">4</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid4-7" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">7</property>
+                                <property name="top-attach">4</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid5-0" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">0</property>
+                                <property name="top-attach">5</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid5-1" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">1</property>
+                                <property name="top-attach">5</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid5-2" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">2</property>
+                                <property name="top-attach">5</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid5-3" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">3</property>
+                                <property name="top-attach">5</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid5-4" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">4</property>
+                                <property name="top-attach">5</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid5-5" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">5</property>
+                                <property name="top-attach">5</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid5-6" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">6</property>
+                                <property name="top-attach">5</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid5-7" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">7</property>
+                                <property name="top-attach">5</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid6-0" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">0</property>
+                                <property name="top-attach">6</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid6-1" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">1</property>
+                                <property name="top-attach">6</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid6-2" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">2</property>
+                                <property name="top-attach">6</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid6-3" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">3</property>
+                                <property name="top-attach">6</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid6-4" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">4</property>
+                                <property name="top-attach">6</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid6-5" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">5</property>
+                                <property name="top-attach">6</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid6-6" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">6</property>
+                                <property name="top-attach">6</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid6-7" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">7</property>
+                                <property name="top-attach">6</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid7-0" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">0</property>
+                                <property name="top-attach">7</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid7-1" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">1</property>
+                                <property name="top-attach">7</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid7-2" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">2</property>
+                                <property name="top-attach">7</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid7-3" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">3</property>
+                                <property name="top-attach">7</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid7-4" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">4</property>
+                                <property name="top-attach">7</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid7-5" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">5</property>
+                                <property name="top-attach">7</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid7-6" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">6</property>
+                                <property name="top-attach">7</property>
+                            </packing>
+                        </child>
+                        <child>
+                            <object id="grid7-7" class="GtkButton">
+                                <property name="visible">True</property>
+                                <property name="width-request">50</property>
+                                <property name="height-request">50</property>
+                            </object>
+                            <packing>
+                                <property name="left-attach">7</property>
+                                <property name="top-attach">7</property>
+                            </packing>
+                        </child>
+                    </object>
+                    <packing>
+                        <property name="left-attach">0</property>
+                        <property name="top-attach">1</property>
+                    </packing>
+                </child>
+                <child>
+                    <object id="indicator" class="GtkLabel">
+                        <property name="visible">True</property>
+                    </object>
+                    <packing>
+                        <property name="left-attach">0</property>
+                        <property name="top-attach">0</property>
+                    </packing>
+                </child>
+            </object>
+        </child>
+    </object>
+</interface>
